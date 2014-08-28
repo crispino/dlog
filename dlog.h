@@ -8,6 +8,7 @@ enum {
 	MSG_ERROR
 };
 
+/* Operation file */
 int debug_open_file(const char *path);
 void debug_close_file(void);
 void debug_printf(int level, const char *fmt, ...);
